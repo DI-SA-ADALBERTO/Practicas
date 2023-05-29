@@ -30,7 +30,6 @@ public class Sumatoria {
             Arrays.sort(ordenados);
 
 
-            System.out.println("La media de la sumatoria es ");
 
             System.out.println("Se sumaron " + numeros.length + " elementos,");
             System.out.println("La sumatoria de los elementos del arreglo es: " +

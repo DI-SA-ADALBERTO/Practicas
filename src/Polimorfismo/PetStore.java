@@ -1,5 +1,6 @@
+package Polimorfismo;
 
-    public class PetStore {
+public class PetStore {
 
         public static void main(String[] args) {
             Dog Firulais = new Dog("Firulais", "Blanco", 2, "Perro");
@@ -11,7 +12,7 @@
             System.out.println(Garfield.talk());
             System.out.println(Claudio.talk());
 
-            System.out.println("Invocando al método toString de la clase Animal: ");
+            System.out.println("Invocando al método toString de la clase Polimorfismo.Animal: ");
             System.out.println(Firulais.toString());
             System.out.println(Garfield.toString());
             System.out.println(Claudio.toString());
